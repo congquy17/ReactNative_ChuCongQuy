@@ -30,4 +30,4 @@
   // task2
   var markHigherBMI = markBMI > johnBMI;
   // task 3 
-  console.log(`BMI your 2 idol ${nameMark} ${markBMI} & ${nameJohn} ${johnBMI} `)
+  console.log(`your BMI of 2 idol that ${nameMark} ${markBMI} & ${nameJohn} ${johnBMI} `)
