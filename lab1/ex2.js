@@ -8,7 +8,7 @@
 // BMI (28.3) is higher than John's (23.9)!"
 
 // task1 
-var nameMark = "Mark";
+var nameMark = "Mark1";
 var weightMark = 78;
 var heightMark = 1.69;
 var markBMI = BMI = weightMark / heightMark ** 2;

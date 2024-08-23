@@ -28,7 +28,7 @@ function calculateTip(bill) {
     const totalValue = bill + tip;
 
     // Print the result
-    console.log(`The bill was ${bill}, the tip was ${tip.toFixed(2)}, and the total value ${totalValue.toFixed(2)}`);
+    console.log(`The bill was ${bill}, the tip wass ${tip.toFixed(2)}, and the total value ${totalValue.toFixed(2)}`);
 }
 
 // Test data

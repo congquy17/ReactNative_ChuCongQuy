@@ -11,7 +11,7 @@
   // 3. Create a Boolean variable 'markHigherBMI' containing information about
   // whether Mark has a higher BMI than John.
 
-  var BMI = 0;
+  var BMI = 0.0;
   var mass = 5.5;
   var height = 2;
   BMI = mass / height ** 2;
