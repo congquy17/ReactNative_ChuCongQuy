@@ -28,7 +28,7 @@ function determineWinner(dolphinsScores, koalasScores) {
     const dolphinsAverage = calculateAverage(dolphinsScores);
     const koalasAverage = calculateAverage(koalasScores);
 
-    console.log(`Dolphins average score: ${dolphinsAverage}`);
+    console.log(`Dolphins average scoren: ${dolphinsAverage}`);
     console.log(`Koalas average score: ${koalasAverage}`);
 
     // Check bonus rules
