@@ -32,11 +32,24 @@
     console.log(BMI)
 
     // task1 
-    var name = "mark";
-    var heightMark = 1.74;
-    console.log(name)
-    console.log(heightMark)
-        // task2
+    var nameMark = "Mark";
+    var mass = 78;
+    var height = 1.74;
+    var markBMI = BMI = mass / height ** 2;
+
+    var nameJohn = "John";
+    var mass = 95;
+    var height = 1.88;
+    var johnBMI = BMI = mass / height ** 2;
+    // task2
+    var markHigherBMI = markBMI > johnBMI;
+    // task 3 
+    console.log("so sánh chiều cao")
+    if (markHigherBMI) {
+        console.log(`mark cao hơn john ${nameMark} ${markBMI} & ${nameJohn} ${markBMI} `)
+    } else {
+        console.log(`mark thấp hơn john ${nameMark} ${markBMI} & ${nameJohn} ${johnBMI} `)
+    }
 </script>
 
 </html>
