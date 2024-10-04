@@ -4,20 +4,18 @@ import {
   StyleSheet,
   View,
   TouchableOpacity,
-  TextInput
-} from 'react-native';
-import { NavigationContainer } from '@react-navigation/native';
-
-import Navigation  from './navigation/Navigation'
-
+  TextInput,
+} from "react-native";
+import { NavigationContainer } from "@react-navigation/native";
+import React from "react";
+import Navigation from './navigation/Navigation'
+import { AppProvider } from "./context/AppContext";
 export default function App() {
   return (
-    <NavigationContainer independent={true}>
-      <Navigation/>
-    </NavigationContainer>
+    <AppProvider>
+    <Navigation />
+    </AppProvider>
   );
 }
 
-const styles = StyleSheet.create({
-
-});
+const styles = StyleSheet.create({});
