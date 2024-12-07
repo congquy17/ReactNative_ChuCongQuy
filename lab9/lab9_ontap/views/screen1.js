@@ -18,7 +18,7 @@ export default function Screen1({ navigation }) {
     <SafeAreaView style={styles.container}>
       <View style={styles.container}>
         <Text style={{ marginTop: 50 }}>
-          A premium online store for sporter and their stylish oke em nhe rồi nè
+          A premium online store for sporter and their stylish toang quá ta
         </Text>
         <View
           style={{
